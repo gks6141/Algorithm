@@ -1,0 +1,5 @@
+def solution(n, lost, reserve):
+    student = list(range(1,n+1))
+    for i in student:
+        for lost not in i:
+            lost
