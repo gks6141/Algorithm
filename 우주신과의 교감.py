@@ -10,7 +10,7 @@ def get_distance(p1, p2):
 
 def get_parent(parent, n):
     if parent[n] == n:
-    return n
+        return n
     return get_parent(parent, parent[n])
 
 def union_parent(parent, a, b):
